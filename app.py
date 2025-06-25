@@ -163,8 +163,8 @@ st.sidebar.write("Version : 1.0")
 # --- Visualisation des métriques (si vous voulez ajouter des images statiques) ---
 try:
     img_dir = os.path.dirname(__file__)
-    st.image(os.path.join(img_dir, "ROC.png"), caption="Courbe ROC", use_column_width=True)
-    st.image(os.path.join(img_dir, "confusion.png"), caption="Matrice de Confusion", use_column_width=True)
+    #st.image(os.path.join(img_dir, "ROC.png"), caption="Courbe ROC", use_column_width=True)
+    #st.image(os.path.join(img_dir, "confusion.png"), caption="Matrice de Confusion", use_column_width=True)
 except FileNotFoundError:
     st.warning("Les images de performance (ROC.png, confusion.png) n'ont pas été trouvées. Assurez-vous de les uploader sur GitHub.")
 
